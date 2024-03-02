@@ -1,20 +1,7 @@
 #ifndef MY_GAME_PROJECT_STATE_H
 #define MY_GAME_PROJECT_STATE_H
 
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <stack>
-#include <map>
-
-#include <SFML/System.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Network.hpp>
+#include "Entity.h"
 
 class State {
 private:
