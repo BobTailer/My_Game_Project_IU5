@@ -16,16 +16,22 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
-class Entity {
+class Entity{
 private:
+
+protected:
+    sf::RectangleShape shape;
+    float movementSpeeed;
 
 public:
     Entity();
     virtual ~Entity();
 
     //Functions
-    void update(const float& dt) = 0;
-    void render(sf::RenderTarget& target) = 0;
+    virtual void move(const float& dt, const float x, const float y);
+
+    virtual void update(const float& dt);
+    virtual void render(sf::RenderTarget* target);
 
 };
 

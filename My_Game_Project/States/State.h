@@ -1,10 +1,12 @@
 #ifndef MY_GAME_PROJECT_STATE_H
 #define MY_GAME_PROJECT_STATE_H
 
-#include "Entity.h"
+#include "../Entity.h"
 
 class State {
 private:
+
+protected:
     sf::RenderWindow* window;
     std::vector<sf::Texture> textures;
     bool quit;

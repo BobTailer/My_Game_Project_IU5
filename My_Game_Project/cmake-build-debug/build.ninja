@@ -81,9 +81,9 @@ build CMakeFiles/My_Game_Project.dir/States/GameState.cpp.obj: CXX_COMPILER__My_
   OBJECT_DIR = CMakeFiles\My_Game_Project.dir
   OBJECT_FILE_DIR = CMakeFiles\My_Game_Project.dir\States
 
-build CMakeFiles/My_Game_Project.dir/Entities.cpp.obj: CXX_COMPILER__My_Game_Project_Debug D$:/UI5_Priject/My_Game_Project/Entities.cpp || cmake_object_order_depends_target_My_Game_Project
+build CMakeFiles/My_Game_Project.dir/Entity.cpp.obj: CXX_COMPILER__My_Game_Project_Debug D$:/UI5_Priject/My_Game_Project/Entity.cpp || cmake_object_order_depends_target_My_Game_Project
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\My_Game_Project.dir\Entities.cpp.obj.d
+  DEP_FILE = CMakeFiles\My_Game_Project.dir\Entity.cpp.obj.d
   FLAGS = -g
   INCLUDES = -isystem C:/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\My_Game_Project.dir
@@ -97,7 +97,7 @@ build CMakeFiles/My_Game_Project.dir/Entities.cpp.obj: CXX_COMPILER__My_Game_Pro
 #############################################
 # Link the executable My_Game_Project.exe
 
-build My_Game_Project.exe: CXX_EXECUTABLE_LINKER__My_Game_Project_Debug CMakeFiles/My_Game_Project.dir/main.cpp.obj CMakeFiles/My_Game_Project.dir/Game.cpp.obj CMakeFiles/My_Game_Project.dir/States/State.cpp.obj CMakeFiles/My_Game_Project.dir/States/GameState.cpp.obj CMakeFiles/My_Game_Project.dir/Entities.cpp.obj | C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libfreetype.a C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libopenal32.a C$:/SFML-2.5.1/lib/libvorbisfile.a C$:/SFML-2.5.1/lib/libvorbisenc.a C$:/SFML-2.5.1/lib/libvorbis.a C$:/SFML-2.5.1/lib/libogg.a C$:/SFML-2.5.1/lib/libFLAC.a
+build My_Game_Project.exe: CXX_EXECUTABLE_LINKER__My_Game_Project_Debug CMakeFiles/My_Game_Project.dir/main.cpp.obj CMakeFiles/My_Game_Project.dir/Game.cpp.obj CMakeFiles/My_Game_Project.dir/States/State.cpp.obj CMakeFiles/My_Game_Project.dir/States/GameState.cpp.obj CMakeFiles/My_Game_Project.dir/Entity.cpp.obj | C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libfreetype.a C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libopenal32.a C$:/SFML-2.5.1/lib/libvorbisfile.a C$:/SFML-2.5.1/lib/libvorbisenc.a C$:/SFML-2.5.1/lib/libvorbis.a C$:/SFML-2.5.1/lib/libogg.a C$:/SFML-2.5.1/lib/libFLAC.a
   FLAGS = -g
   LINK_LIBRARIES = C:/SFML-2.5.1/lib/libsfml-system-s-d.a  C:/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1/lib/libsfml-audio-s-d.a  C:/SFML-2.5.1/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  C:/SFML-2.5.1/lib/libfreetype.a  C:/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML-2.5.1/lib/libopenal32.a  C:/SFML-2.5.1/lib/libvorbisfile.a  C:/SFML-2.5.1/lib/libvorbisenc.a  C:/SFML-2.5.1/lib/libvorbis.a  C:/SFML-2.5.1/lib/libogg.a  C:/SFML-2.5.1/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\My_Game_Project.dir
